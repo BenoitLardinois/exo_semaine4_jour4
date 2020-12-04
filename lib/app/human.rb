@@ -1,0 +1,9 @@
+require 'pry'
+
+class Human < Player
+  def move
+    x = gets.chomp
+    return x
+  end
+end
+
